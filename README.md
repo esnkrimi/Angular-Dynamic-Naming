@@ -10,11 +10,11 @@ In this example we have 2 variable 3 functions:
     functionMultiply (variableName, x, y)    // calculate x*y and save it to variableName
 
 
-If we run selectAction("Sum",2,3)
+If we run <b>selectAction("Sum",2,3)</b>
 
 selectAction get "Sum" and know we have functionSum and varSum should save 2+3;
 
-and if we run selectAction("Multiply",2,3)
+and if we run  <b>selectAction("Multiply",2,3)</b>
 
 selectAction get "Multiply" and know we have functionMultiply and varMultiply should save 2*3;
 
@@ -22,7 +22,7 @@ Withou dynamic naming we should use some if conditions .
 
 
 
-Dynamic Naming help us achieve our goals without using any IF/SWITCH CASE conditions.
+Dynamic Naming help us achieve our goals without using any  <b>IF/SWITCH CASE conditions.
 
 
     export class HomeComponent implements OnInit {
@@ -30,7 +30,7 @@ Dynamic Naming help us achieve our goals without using any IF/SWITCH CASE condit
     varMultiply=0;
     constructor() {}
 
-    ngOnInit() { 
+    ngOnInit() </b>{ 
     this.selectAction("Sum",2,3);
     this.selectAction("Multiply",2,3);
     }
